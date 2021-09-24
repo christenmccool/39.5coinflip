@@ -20,6 +20,7 @@ const Board = () => {
   const handleClick = () => {
     const newFlip = flipCoin();
     setSide(newFlip);
+    console.log(side);
 
     setTotal(total + 1);
     // if (side === 'heads') {
